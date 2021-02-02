@@ -146,7 +146,7 @@ class BinDetector():
 		bl=[]
 		nonbl=[]
 		folder_orig = "data/training"
-		folder = 'data_capture/blue_mask'
+		folder = './data_capture/blue_mask'
 		for filename in os.listdir(folder):
 			if filename.split('.')[-1] != 'npy':
 				continue
